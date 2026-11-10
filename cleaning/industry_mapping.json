@@ -1,0 +1,40 @@
+{
+  "_description": "INDUSTRY cleaning rules (replaces the 2024 Tableau Prep groupings kept in mappings_2024_original.json).",
+  "_detection": "The survey question 'What industry do you work in?' was a fixed dropdown with an 'Other' free-text box. In the raw data (28,089 rows, 1,220 distinct values) the 25 most frequent values each occur 99-4,708 times, then counts drop sharply (next value: 'Publishing', 56) and continue as a long tail of free text. These 25 values are taken as dropdown options. 'Law Enforcement & Security' (43 rows) sits below the gap but is added because it is an option on the published 2021 survey form; it is also phrased in the same style as the other options, unlike the single-word free-text values around it (Publishing, Library, Biotech).",
+  "standard_options": [
+    "Accounting, Banking & Finance",
+    "Agriculture or Forestry",
+    "Art & Design",
+    "Business or Consulting",
+    "Computing or Tech",
+    "Education (Higher Education)",
+    "Education (Primary/Secondary)",
+    "Engineering or Manufacturing",
+    "Entertainment",
+    "Government and Public Administration",
+    "Health care",
+    "Hospitality & Events",
+    "Insurance",
+    "Law",
+    "Law Enforcement & Security",
+    "Leisure, Sport & Tourism",
+    "Marketing, Advertising & PR",
+    "Media & Digital",
+    "Nonprofits",
+    "Property or Construction",
+    "Recruitment or HR",
+    "Retail",
+    "Sales",
+    "Social Work",
+    "Transport or Logistics",
+    "Utilities & Telecommunications"
+  ],
+  "matching": {
+    "normalise": "lower-case; '&' -> 'and'; remove every character that is not a-z or 0-9. A value whose normalised key equals an option's key is mapped to that option (case/spacing/punctuation variants).",
+    "max_spelling_distance": 1,
+    "min_option_key_length_for_spelling": 8,
+    "spelling_note": "Otherwise a value within Levenshtein distance 1 of an option key (options with keys of at least 8 characters only, so short options like 'Law' do not absorb 'Lab') is mapped to that option."
+  },
+  "other_label": "Others",
+  "missing_label": "Others"
+}

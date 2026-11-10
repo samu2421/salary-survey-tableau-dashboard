@@ -1,0 +1,2655 @@
+{
+  "_source": "Final_Project.tfl (Tableau Prep, 2024): Remap steps for INDUSTRY and US_STATES, in flow execution order",
+  "_semantics": "Steps are applied one after another. Within a step, a value equal to any 'from' entry becomes 'to'. Values not listed are unchanged. null = missing.",
+  "INDUSTRY": [
+    {
+      "step": "Clean 16",
+      "groups": [
+        {
+          "to": "Outsourced Customer Service/Tech Support Call Centre",
+          "from": [
+            "Outsourced Customer Service/Tech Support Call Centre",
+            "Outsourcing Services"
+          ]
+        },
+        {
+          "to": "Regulatory Affairs- nutraceuticals",
+          "from": [
+            "Regulatory Affairs- nutraceuticals",
+            "Regulatory Affairs"
+          ]
+        },
+        {
+          "to": "Entertainment",
+          "from": [
+            "International organisations",
+            "Entertainment data",
+            "Entertainment",
+            "Interior Design & Architecture",
+            "International defence",
+            "Entrepreneur high net worth",
+            "Intergovernmental organization",
+            "Interpretation",
+            "Interior landscaping",
+            "Interior Design (commercial)",
+            "International development (multilateral donor)",
+            "International Development",
+            "Internal Communications",
+            "Internet",
+            "International organization (UN)",
+            "Undergrad student"
+          ]
+        },
+        {
+          "to": "Federal Government Contracting",
+          "from": [
+            "Federal Government Contracting",
+            "Federal Contracting/Business Development"
+          ]
+        },
+        {
+          "to": "Mental Health",
+          "from": [
+            "Mental Health",
+            "Mental health therapist"
+          ]
+        },
+        {
+          "to": "Security",
+          "from": [
+            "Security and manufacturing company",
+            "Security"
+          ]
+        },
+        {
+          "to": "Property or Construction",
+          "from": [
+            "Property Management",
+            "Property or Construction"
+          ]
+        },
+        {
+          "to": "Automotive",
+          "from": [
+            "Automotive technician",
+            "Automtive Repair",
+            "Automotive finance and insurance",
+            "Automotive",
+            "Automotive Repair"
+          ]
+        },
+        {
+          "to": "Organized Labor",
+          "from": [
+            "Organized Labor",
+            "Organizational Development",
+            "I work in the finance function of a large global conglomerate"
+          ]
+        },
+        {
+          "to": "Training",
+          "from": [
+            "Training and Professional Services",
+            "Training"
+          ]
+        },
+        {
+          "to": "Community Management",
+          "from": [
+            "Community Management",
+            "Community Foundation"
+          ]
+        },
+        {
+          "to": "Mining",
+          "from": [
+            "Mining/Mineral Exploration",
+            "Mining and natural resources",
+            "Mining & Mineral Processing",
+            "Mining/Resource Extraction",
+            "Mining"
+          ]
+        },
+        {
+          "to": "Utilities & Telecommunications",
+          "from": [
+            "Utilities & Telecommunications"
+          ]
+        },
+        {
+          "to": "Trade Association",
+          "from": [
+            "Trades (Supply Chain) Oil and Gas",
+            "Trade Association",
+            "trade association/membership",
+            "Trade Associations"
+          ]
+        },
+        {
+          "to": "Agriculture or Forestry",
+          "from": [
+            "Agriculture/Agriculture Chemical",
+            "Agriculture or Forestry"
+          ]
+        },
+        {
+          "to": "manufacturing",
+          "from": [
+            "Manufacturing (pharmaceuticals)",
+            "Manufacturing/Wholesale",
+            "Manufacturing (personal care)",
+            "Manufacturing (medical devices)",
+            "manufacturing",
+            "Manufacturing : corporate admin support",
+            "Manufacturing and distributing",
+            "Manufacturing/Consumer Packaged Goods",
+            "Manufacturing, Chemical",
+            "manufacturing security systems"
+          ]
+        },
+        {
+          "to": "Consumer Goods",
+          "from": [
+            "Consumer Good (Toys)",
+            "Consumer Product Goods",
+            "Consumer Research",
+            "consumer product design",
+            "Consumer Product Organization",
+            "Consumer Packaged Goods",
+            "consumer products",
+            "Consumer/Packaged Goods",
+            "Consumer Goods",
+            "Consumer food products",
+            "Consumer Products design",
+            "Consumer Goods Production"
+          ]
+        },
+        {
+          "to": "Pharma/Biotech",
+          "from": [
+            "Pharma/Biotech",
+            "Pharma & Biotech",
+            "Pharma/biotechnology"
+          ]
+        },
+        {
+          "to": "Specialist clothing",
+          "from": [
+            "Specialist clothing",
+            "Special Collections Library",
+            "Specialist policy consulting/research"
+          ]
+        },
+        {
+          "to": "Operations",
+          "from": [
+            "Operations",
+            "Operational Training"
+          ]
+        },
+        {
+          "to": "Computing or Tech",
+          "from": [
+            "Computing/Tech + Higher Ed + Nonprofit",
+            "Computing or Tech"
+          ]
+        },
+        {
+          "to": "Construction",
+          "from": [
+            "Construction Management",
+            "Construction, mining, manufacturing",
+            "Construction, HVAC",
+            "Construction",
+            "Construction / Stone industry"
+          ]
+        },
+        {
+          "to": "Transport or Logistics",
+          "from": [
+            "Translation/transcription",
+            "Translation and Localization",
+            "Translation",
+            "Transport or Logistics"
+          ]
+        },
+        {
+          "to": "Learning and Development",
+          "from": [
+            "Learning and Development",
+            "Learning & Development"
+          ]
+        },
+        {
+          "to": "Communications",
+          "from": [
+            "Communications",
+            "Gaming (Gambling)",
+            "Communication Research",
+            "Communications/publications",
+            "Gaming"
+          ]
+        },
+        {
+          "to": "academic research",
+          "from": [
+            "Academic Press Production",
+            "Academia",
+            "Academic Medicine",
+            "Academic science",
+            "academic research",
+            "Academic Scientific Research",
+            "Academia / Research",
+            "Academia--cell and molecular biology",
+            "Academia - STEM",
+            "Academic research (social science)",
+            "Academic research (Psychology)",
+            "Academic/nonprofit research",
+            "academic publishing"
+          ]
+        },
+        {
+          "to": "Behavioral Health",
+          "from": [
+            "Behavioral Health",
+            "Behavior analysis/mental health"
+          ]
+        },
+        {
+          "to": "Language Services company, unsure the broad category to use. Our clients are branding agencies, and their clients are frequently (but not always) pharmaceutical companies.",
+          "from": [
+            "Language Services company, unsure the broad category to use. Our clients are branding agencies, and their clients are frequently (but not always) pharmaceutical companies.",
+            "Language Services"
+          ]
+        },
+        {
+          "to": "Supply chain",
+          "from": [
+            "Supply chain",
+            "Supply Chain Distribution",
+            "Supply Chain!",
+            "Supply Chain Operations"
+          ]
+        },
+        {
+          "to": "Religious (church)",
+          "from": [
+            "Religious (church)",
+            "Religious institute",
+            "Religious",
+            "Religious institution",
+            "Religious (synagogue)",
+            "religious educator"
+          ]
+        },
+        {
+          "to": "Education (Higher Education)",
+          "from": [
+            "Education (early childhood)",
+            "Education- museum/public outreach",
+            "education writing",
+            "Educational products",
+            "Educational Publishing",
+            "Education (Early Childhood Education)",
+            "Education start-up",
+            "Educational assessment",
+            "Education (Higher Education)",
+            "Education services (tutoring)",
+            "Education Publishing",
+            "Education service provider",
+            "Education research- mix of Edtech and non profits",
+            "Education (Primary/Secondary)",
+            "Education (Other)",
+            "Education/vocational",
+            "Educational technology",
+            "Education: preschool",
+            "Educational publishing / ed tech",
+            "Educational Research",
+            "Educational Technology - hybrid between book publishing and technology really",
+            "Education Consulting",
+            "Adult education",
+            "Beauty Manufacturing & Education",
+            "Childcare (0-5 so does not come under Primary education)",
+            "Data/Institutional Research in Higher Education",
+            "Early Childhood Education",
+            "For profit education",
+            "Public health in higher education",
+            "Online education startup (non-technical role)",
+            "Not for profit education consultancy",
+            "Music, education",
+            "Medica education",
+            "Higher education fundraising",
+            "Museum education",
+            "Online education",
+            "Early Education (corporate office)",
+            "Higher education/Libraries",
+            "Early childhood education (preschool)",
+            "Editor in educational publishing",
+            "Music: freelance, performing and education",
+            "Pre-primary education",
+            "Fundraising in Higher Education; nonclinical, nonacademic",
+            "Hybrid Nonprofit Higher Education (we are part of a university but our entire budget comes from grants)"
+          ]
+        },
+        {
+          "to": "Health and Safety",
+          "from": [
+            "Health and Safety",
+            "Health Insurance",
+            "Health and fitness"
+          ]
+        },
+        {
+          "to": "Real Estate",
+          "from": [
+            "Real Estate Investment Support",
+            "Real Estate / Housing",
+            "Real Estate/Development",
+            "Real Estate Investment",
+            "Real Estate Association",
+            "Real Estate customer care",
+            "Real estate valuation",
+            "Real Estate Title Company",
+            "Real estate software",
+            "Real Estate",
+            "Real Estate Affordable Housing",
+            "Real estate: title & escrow",
+            "Real estate services",
+            "Real estate servicea",
+            "Real Estate Development",
+            "Real Estate/ Mortgage",
+            "Real Estate Corp. Office/not a Realtor"
+          ]
+        },
+        {
+          "to": "Online education",
+          "from": [
+            "Online learning"
+          ]
+        },
+        {
+          "to": "Nonprofits",
+          "from": [
+            "Non-profit health care (I couldn’t select both)",
+            "Non Profit Theater",
+            "Nonprofits",
+            "Nonprofit scholarly society publisher",
+            "Non-profit Theatre",
+            "Nonprofit - legal department",
+            "Nonprofit association",
+            "Nonprofit - LORT D Theater"
+          ]
+        },
+        {
+          "to": "Instructional Design and Training",
+          "from": [
+            "Instructional Design and Training",
+            "Instructional Design, Aviation Industry",
+            "Instructional Designer"
+          ]
+        },
+        {
+          "to": "Biotechnology",
+          "from": [
+            "Biotechnology, Research and Development",
+            "Biotechnology/Life Sciences",
+            "Biotechnology"
+          ]
+        },
+        {
+          "to": "Food manufacturing",
+          "from": [
+            "Food Manufacture",
+            "Food manufacturers",
+            "Food manufacturing"
+          ]
+        },
+        {
+          "to": "Commercial Real Estate",
+          "from": [
+            "Commercial Building Material Distribution",
+            "Commercial furniture",
+            "Commercial Real Estate Data and Analytics/Research",
+            "Commercial Landscaping",
+            "Commercial Real Estate - Private Equity",
+            "Commercial Fisherman",
+            "Commercial Real Estate",
+            "Commercial real estate tenancy"
+          ]
+        },
+        {
+          "to": "Biotech pharmaceuticals",
+          "from": [
+            "Biotech pharmaceuticals",
+            "Biotech / Pharmaceutical Industry"
+          ]
+        },
+        {
+          "to": "Conservation",
+          "from": [
+            "Conservation",
+            "Cancer research, not for profit"
+          ]
+        },
+        {
+          "to": "Grocery Distribution",
+          "from": [
+            "Grocery Distribution",
+            "Grocery delivery"
+          ]
+        },
+        {
+          "to": "Research",
+          "from": [
+            "Research at a State University",
+            "Research and Evaluation",
+            "Research / Gov",
+            "Research and Development",
+            "Research Scientist, Pharma",
+            "Research & Development (Physical Sciences)",
+            "Research Administration",
+            "Research (health)",
+            "Research/Academia",
+            "Research Science",
+            "Research & Development (Defense Industry)",
+            "Research",
+            "Research Institute",
+            "Research at a National Laboratory",
+            "Research and Development Academia",
+            "Research & Development",
+            "Research - Public Health",
+            "Research - academic",
+            "Research/Social Science",
+            "Research and Development, Food and Beverage"
+          ]
+        },
+        {
+          "to": "Museum - Nonprofit",
+          "from": [
+            "Museum - Nonprofit",
+            "Museum (University Affiliated)"
+          ]
+        },
+        {
+          "to": "Arts Administration",
+          "from": [
+            "Arts Administration",
+            "Arts, Culture and Heritage",
+            "awards and engraving"
+          ]
+        },
+        {
+          "to": "medical research",
+          "from": [
+            "Medical Library",
+            "Medical/Pharmaceutical",
+            "Medical Sciences",
+            "Medical Interpreter -(Spanish)",
+            "Medical Device",
+            "Medical communications",
+            "Medical Devices",
+            "medical research",
+            "Medical supply Wholesale & Warehousing",
+            "Medical Technology"
+          ]
+        },
+        {
+          "to": "Funeral services",
+          "from": [
+            "Funeral services",
+            "Funeral Service",
+            "Funeral"
+          ]
+        },
+        {
+          "to": "Life Sciences",
+          "from": [
+            "Life sciences (not in academia)",
+            "Life science capability development",
+            "Life Sciences"
+          ]
+        },
+        {
+          "to": "wholesale distribution",
+          "from": [
+            "Wholesale",
+            "Wholesale and retail trade",
+            "Wholesale - Apparel",
+            "wholesale distribution",
+            "Wholesale textile manufacture and sales",
+            "Wholesale Distribution B2B",
+            "Wholesale Industrial & Welding Supplies & Equipment",
+            "Wholesale supplier",
+            "Wholesale Trade",
+            "Wholesale/Distrbution"
+          ]
+        },
+        {
+          "to": "Pharma R&D",
+          "from": [
+            "Pharma R&D",
+            "Pharma/ Research",
+            "Pharma research"
+          ]
+        },
+        {
+          "to": "Corporate sustainability",
+          "from": [
+            "Corporate service management",
+            "Corporate Learning and Development",
+            "Corporate sustainability",
+            "Corporate Training",
+            "Corporate accounting in death care (funeral & cemetery)",
+            "Corporate Travel Industry"
+          ]
+        },
+        {
+          "to": "Energy",
+          "from": [
+            "Energy Supplier",
+            "Energy: oil & gas",
+            "Energy (oil & gas & associated products, renewable power, etc)",
+            "Energy, Oil & Gas",
+            "Energy (Oil & Gas)",
+            "Energy Sector: Oil & Gas",
+            "Energy/oil",
+            "Energy",
+            "Energy - Oil and Gas",
+            "Energy, Oil and Gas",
+            "Energy / renewables"
+          ]
+        },
+        {
+          "to": "Archaeology/Cultural Resource Manager",
+          "from": [
+            "Archaeology/Cultural Resource Manager",
+            "Archaeologist",
+            "Archaeology",
+            "Archaeology / Cultural Resource Management"
+          ]
+        },
+        {
+          "to": "Food & Beverage",
+          "from": [
+            "Food & Beverages",
+            "Food/Beverage Manufacturing- Quality/Laboratory",
+            "Food & Beverage production",
+            "Food & Beverage"
+          ]
+        },
+        {
+          "to": "e-commerce",
+          "from": [
+            "Ecommerce - Technology",
+            "e-commerce",
+            "Ecommerce fraud",
+            "E commerce",
+            "Ecommerce"
+          ]
+        },
+        {
+          "to": "Technical/IT",
+          "from": [
+            "Technical/IT",
+            "Technical/Cybersecurity",
+            "Technical writing"
+          ]
+        },
+        {
+          "to": "municipal (public) libraries",
+          "from": [
+            "municipal (public) libraries",
+            "Municipal library",
+            "Municipal Government (Library)"
+          ]
+        },
+        {
+          "to": "Food",
+          "from": [
+            "Food",
+            "PhD",
+            "Vet"
+          ]
+        },
+        {
+          "to": "Printing",
+          "from": [
+            "Printing",
+            "Print / Mail",
+            "Print publishing",
+            "Print Distributor"
+          ]
+        },
+        {
+          "to": "Biotech/Pharma",
+          "from": [
+            "Biotech/pharmaceuticals",
+            "Biotech/Food Safety",
+            "Biotech/Pharma"
+          ]
+        },
+        {
+          "to": "Administration",
+          "from": [
+            "Administrative Support",
+            "Administrative",
+            "Administration, IT",
+            "Administration in MLM",
+            "Administration",
+            "Administration (food service)",
+            "Administrative Work"
+          ]
+        },
+        {
+          "to": "Virtual Assisting",
+          "from": [
+            "Virtual Assisting",
+            "Virtual reality"
+          ]
+        },
+        {
+          "to": "association management",
+          "from": [
+            "Association",
+            "association management"
+          ]
+        },
+        {
+          "to": "Office Admin",
+          "from": [
+            "Office Admin",
+            "Office Administration"
+          ]
+        },
+        {
+          "to": "Religion",
+          "from": [
+            "Religion",
+            "Religion/church"
+          ]
+        },
+        {
+          "to": "Business or Consulting",
+          "from": [
+            "Bioscience Company",
+            "Business Process Outsourcing",
+            "Business Services",
+            "Business or Consulting"
+          ]
+        },
+        {
+          "to": "Fire protection",
+          "from": [
+            "Fire protection"
+          ]
+        },
+        {
+          "to": "Scientific Research",
+          "from": [
+            "Scientific R&D",
+            "Scientific research (industry)",
+            "Scientific Research",
+            "Scientific",
+            "Scientific analysis",
+            "Scientific publishing"
+          ]
+        },
+        {
+          "to": "Industrial Cleaning & Non Hazardous Transport",
+          "from": [
+            "Industrial Cleaning & Non Hazardous Transport",
+            "Industrial Supply",
+            "Industrial Hygiene"
+          ]
+        },
+        {
+          "to": "Professional Services",
+          "from": [
+            "Professional Association",
+            "Professional regulation",
+            "Professional Association in Finance",
+            "Professional Public Librarian",
+            "Professional training",
+            "Professional services / architecture",
+            "Professional Services"
+          ]
+        },
+        {
+          "to": "Restaurant",
+          "from": [
+            "Restaurant",
+            "restoration",
+            "Restaurant/Service",
+            "Restaurants & Hospitality",
+            "Restaurant Group",
+            "Restaurant/Food Service"
+          ]
+        },
+        {
+          "to": "Cultural Resources Management/Major Univ.",
+          "from": [
+            "Cultural Resources Management/Major Univ.",
+            "cultural (museums/galleries)",
+            "Cultural Resource Management",
+            "Culture",
+            "Cultural Heritage"
+          ]
+        },
+        {
+          "to": "Consulting",
+          "from": [
+            "Counselling",
+            "Consulting / Professional Services",
+            "Consulting",
+            "Consulting Operations- Big 4",
+            "Counseling",
+            "Consultant"
+          ]
+        },
+        {
+          "to": "Graduate assistant and also events",
+          "from": [
+            "Graduate assistant and also events",
+            "Graduate Student"
+          ]
+        },
+        {
+          "to": "Veterinary",
+          "from": [
+            "Veterinary medicine",
+            "Veterinary Diagnostics",
+            "Veterinary care",
+            " Veterinary medicine",
+            "Veterinary m&a",
+            "Veterinarian",
+            "Veterinary services",
+            "veterinary biotech",
+            "Veterinary"
+          ]
+        },
+        {
+          "to": "Fitness",
+          "from": [
+            "Fitness & Entertainment",
+            "Fitness"
+          ]
+        },
+        {
+          "to": "Pharmaceuticals",
+          "from": [
+            "Pharmaceutical Development",
+            "Pharmaceutical R&D",
+            "Pharmaceutical Manufacturing",
+            "Pharmaceutical/Contract Research Organization",
+            "Pharmaceuticals",
+            "Pharmaceutical/biotechnology",
+            "Pharmaceuticals / Biotech",
+            "Pharmaceutical",
+            "Pharmaceuticals/Biotechnology",
+            "Pharmaceutical research",
+            "Pharmaceutical company",
+            "Pharmaceutical research & development",
+            "Pharmaceutical/Biotech",
+            "Pharmaceutical research (chemist)",
+            "Pharmaceutical industry",
+            "Pharmaceitical manufacturing",
+            "Pharmaceuticals R&D"
+          ]
+        },
+        {
+          "to": "Govtech Software as a Service",
+          "from": [
+            "Govtech Software as a Service",
+            "Govt contractor - not direct govt but they pay my company who in turn pays me",
+            "Govt contractor - not directly govt but they pay me"
+          ]
+        },
+        {
+          "to": "Customer Service",
+          "from": [
+            "Customer service/call center",
+            "Customer Service",
+            "Customer service/publishing-adjacent"
+          ]
+        },
+        {
+          "to": "Science and reasearch",
+          "from": [
+            "Science and reasearch",
+            "Science and Natural Resource Management"
+          ]
+        },
+        {
+          "to": "Lobbying and consulting",
+          "from": [
+            "Lobbying and consulting",
+            "Lobbying"
+          ]
+        },
+        {
+          "to": "Product Management",
+          "from": [
+            "Production and Manufacturing",
+            "Product Management",
+            "Protective coatings"
+          ]
+        },
+        {
+          "to": "Marketing, Advertising & PR",
+          "from": [
+            "Marketing, Advertising & PR",
+            "Marketing technology",
+            "Market research",
+            "Marketing at a Non Profit"
+          ]
+        },
+        {
+          "to": "Compliance",
+          "from": [
+            "Compliance",
+            "Gambling"
+          ]
+        },
+        {
+          "to": "Freelance Journalism",
+          "from": [
+            "Freelance Journalism",
+            "Freelance/Self-Employed Consultant"
+          ]
+        },
+        {
+          "to": "Digital Marketing",
+          "from": [
+            "Digital Marketing",
+            "digital commerce / ecommerce",
+            "Digital",
+            "digital marketing within a book publishing company (please reclassify as you see fit)"
+          ]
+        },
+        {
+          "to": "biological research",
+          "from": [
+            "Biological Sciences",
+            "biological research"
+          ]
+        },
+        {
+          "to": "Drug development",
+          "from": [
+            "Drug development",
+            "Direct support  professional  in a group  home"
+          ]
+        },
+        {
+          "to": "Oil & Gas",
+          "from": [
+            "Oil & Gas - Non Destructive Testing",
+            "Oil & Gas"
+          ]
+        },
+        {
+          "to": "Skilled trade",
+          "from": [
+            "Skilled trade",
+            "School District Pre-K-12"
+          ]
+        },
+        {
+          "to": "Tourism",
+          "from": [
+            "Tourism",
+            "Tourism/Heritage -- but for a government building"
+          ]
+        },
+        {
+          "to": "Analytical Chemistry",
+          "from": [
+            "Analytical Chemistry",
+            "Analytics",
+            "Analytical lab"
+          ]
+        },
+        {
+          "to": "Aerospace",
+          "from": [
+            "Aerospace and Defense Manufacturing",
+            "Aerospace/Defense",
+            "aerospace data",
+            "Aerospace Manufacturing",
+            "Aerospace & Defense",
+            "Aerospace and Defense",
+            "Aerospace/Aviation",
+            "Aerospace contracting",
+            "Aerospace",
+            "Aerospace and Defense/Government Contracting"
+          ]
+        },
+        {
+          "to": "Technology",
+          "from": [
+            "Technology",
+            "technology/SaaS"
+          ]
+        },
+        {
+          "to": "Video Games",
+          "from": [
+            "Video Games",
+            "Video Game Industry"
+          ]
+        },
+        {
+          "to": "Contract research organisation",
+          "from": [
+            "Contract research organisation",
+            "Contract Research"
+          ]
+        },
+        {
+          "to": "Archives",
+          "from": [
+            "Archives",
+            "Archives/Libraries",
+            "I work for Indeed.com",
+            "Archives/Library Science",
+            "Workforce development"
+          ]
+        },
+        {
+          "to": "Beverage",
+          "from": [
+            "Beverage Distribution",
+            "Beverage Production",
+            "Beverage",
+            "Beverage & Spirits"
+          ]
+        },
+        {
+          "to": "Service and repair",
+          "from": [
+            "Service and repair",
+            "Service"
+          ]
+        },
+        {
+          "to": "Animal care",
+          "from": [
+            "Animal welfare",
+            "Animal Caretaker",
+            "Animal care",
+            "Animal Health",
+            "Animal health industry",
+            "Animal Health Product Manufacturing"
+          ]
+        },
+        {
+          "to": "Social Work",
+          "from": [
+            "Social Research",
+            "Social Work"
+          ]
+        },
+        {
+          "to": "Environmental",
+          "from": [
+            "Environmental science",
+            "Environmental Planning",
+            "University tech transfer (higher ed/marketing/writing)",
+            "University research",
+            "Environmental health and safety",
+            "Environmental Consultanting",
+            "Information Services/Libraries",
+            "Environmental Restoration",
+            "Environmental health and safety compliance",
+            "Enviromental",
+            "University libraries",
+            "Environmental Sciences",
+            "Environmental Services",
+            "Environmental",
+            "Environmental Consulting",
+            "Environmental survey",
+            "Information services (libraries)",
+            "Environmental Health + Pest Control",
+            "Information",
+            "Information sciences",
+            "Information Management/Archives",
+            "Information Technology",
+            "Environmental compliance",
+            "Environment and sustainability",
+            "Information services (library)",
+            "environmental compliance/engineering",
+            "Information technology (IT)",
+            "Environmnetal",
+            "Environmental regulation",
+            "Environment, health, and safety",
+            "Information services",
+            "Environment",
+            "University administration",
+            "Environmental/Cultural Resource Management",
+            "Environment - Oil and Gas"
+          ]
+        },
+        {
+          "to": "User Experience Design",
+          "from": [
+            "User Experience Design",
+            "User Experience (UX) Research"
+          ]
+        },
+        {
+          "to": "Architecture",
+          "from": [
+            "Architecture and engineering consulting and design",
+            "Architectural/Land Planning/Civil Engineering",
+            "Architecture, Engineering, Construction",
+            "I work at a property tax management company. Not sure where this fits in. Consulting maybe?",
+            "Architecture",
+            "Architecture & Construction",
+            "Architecture/Construction",
+            "Architecture / Engineering",
+            "Architect"
+          ]
+        },
+        {
+          "to": "Fundraising",
+          "from": [
+            "Fundraising",
+            "Fundraising for a university"
+          ]
+        },
+        {
+          "to": "Biotech",
+          "from": [
+            "Bitech",
+            "Bio tech",
+            "Biotech"
+          ]
+        },
+        {
+          "to": "Psychologist",
+          "from": [
+            "Psychologist",
+            "Psychology"
+          ]
+        },
+        {
+          "to": "Concrete Construction",
+          "from": [
+            "Concrete Construction",
+            "Concrete"
+          ]
+        },
+        {
+          "to": "Food service",
+          "from": [
+            "Foodservice",
+            "Food Service --- Baking",
+            "Food service"
+          ]
+        },
+        {
+          "to": "Telecommunications",
+          "from": [
+            "Telecommunications (GPS)",
+            "Telecommunications"
+          ]
+        },
+        {
+          "to": "Engineering or Manufacturing",
+          "from": [
+            "Engineering - Mining",
+            "Engineering and Environmental Consulting",
+            "Engineering or Manufacturing"
+          ]
+        },
+        {
+          "to": "Chemicals",
+          "from": [
+            "Chemicals",
+            "Chemical Manufacturing",
+            "Chemical",
+            "Chemicals/ Materials"
+          ]
+        },
+        {
+          "to": "Heritage",
+          "from": [
+            "Heritage",
+            "Heritage/Public History"
+          ]
+        },
+        {
+          "to": "Chemistry",
+          "from": [
+            "Chemistry",
+            "Games development"
+          ]
+        },
+        {
+          "to": "Social science",
+          "from": [
+            "Social science",
+            "Social sciences research",
+            "social science research - not quite academia, not quite nonprofit, not quite consulting"
+          ]
+        },
+        {
+          "to": "Immigration",
+          "from": [
+            "Immigration",
+            "I'm currently a student and don't have a job"
+          ]
+        },
+        {
+          "to": "Global Mobility",
+          "from": [
+            "Global Mobility",
+            "Global Health Consulting"
+          ]
+        },
+        {
+          "to": "Software",
+          "from": [
+            "Software/programming",
+            "Software as a Service SaaS",
+            "Software Development",
+            "Software Products",
+            "Software Development / IT",
+            "Software"
+          ]
+        },
+        {
+          "to": "Science publishing",
+          "from": [
+            "Science publishing",
+            "Science/Biotech"
+          ]
+        },
+        {
+          "to": "Renewable Energy",
+          "from": [
+            "Renewable Energy",
+            "Renewable fuels",
+            "Renewable Energy Development"
+          ]
+        },
+        {
+          "to": "Staffing agency",
+          "from": [
+            "Staffing agency",
+            "Staffing Industrry",
+            "Staffing & workforce solutions",
+            "Staffing Firm"
+          ]
+        },
+        {
+          "to": "Library",
+          "from": [
+            "Libraries & Archives",
+            "Library--public",
+            "Library",
+            "Libraries (public)",
+            "Libraries/Archives",
+            "Library/Archive",
+            "Library/archives",
+            "Library at a University",
+            "Library science / part-time work/study",
+            "Library/Information managment",
+            "Library and Information Services",
+            "Library/Archive/Research Center",
+            "Libraries and Archives (Academic)",
+            "Libraries/Museums/Archives",
+            "Libraries (Medical)",
+            "Library Page (Public county library)",
+            "Libraries / Archives / Information",
+            "Library Tech for a school system",
+            "Library and Information Science",
+            "Libraries",
+            "Librarian",
+            "Librarian in legal setting",
+            "Librarian and Assistant Manager of a library",
+            "Libraries and Archives",
+            "librarian--Contractor for NASA",
+            "Library (university)",
+            "Library (its a non-profit and its a govt job - how would I list that? Not all libraries are govt jobs)"
+          ]
+        },
+        {
+          "to": "Oil and Gas",
+          "from": [
+            "Oil and Gas",
+            "Oil and Gas Safety Training",
+            "Oil and gas exploration"
+          ]
+        },
+        {
+          "to": "Biopharma",
+          "from": [
+            "Biopharmaceuticals",
+            "Biopharma"
+          ]
+        },
+        {
+          "to": "Quality Assurance",
+          "from": [
+            "Quality Assurance",
+            "Quality Assurance Laboratory"
+          ]
+        },
+        {
+          "to": "Beauty",
+          "from": [
+            "Pet",
+            "Beauty"
+          ]
+        },
+        {
+          "to": "Health care",
+          "from": [
+            "Healthcare Information Technology",
+            "Healthcare technology",
+            "Healthcare IT",
+            "Health care"
+          ]
+        },
+        {
+          "to": "Childcare",
+          "from": [
+            "Child Care Resource and Referral Agency",
+            "Childcare",
+            "Child care"
+          ]
+        },
+        {
+          "to": "Warehouse",
+          "from": [
+            "Warehouse- Food and Beverage",
+            "Warehouse",
+            "Warehousing"
+          ]
+        },
+        {
+          "to": "Defense Contracting",
+          "from": [
+            "Defense Contractor",
+            "Defense Contracting"
+          ]
+        },
+        {
+          "to": "Horticulture",
+          "from": [
+            "Horticulture",
+            "Horticulture (Admin)"
+          ]
+        },
+        {
+          "to": "student",
+          "from": [
+            "student paid intern in computing",
+            "student",
+            "State and federal contractor"
+          ]
+        },
+        {
+          "to": "Science research",
+          "from": [
+            "Science Research, government",
+            "Science/Research (Academia)",
+            "Science/Research",
+            "Science/research non-academic",
+            "Science research",
+            "Science (Research, Biology)"
+          ]
+        },
+        {
+          "to": "Science",
+          "from": [
+            "Scientist",
+            "Sciences",
+            "Science"
+          ]
+        },
+        {
+          "to": "Public LIbrary",
+          "from": [
+            "Public Library (Non-profit, but also government?)",
+            "Public health (not medical)",
+            "Public Opinion Research",
+            "Public/Environmental Health",
+            "Public Library (might be considered Government, but that always seems an odd designation...)",
+            "Public safety",
+            "Public Health, local government",
+            "Public Library (technically City Govt.?)",
+            "Public Policy",
+            "Public Health- state level",
+            "Public Health Research",
+            "Public affairs / PR",
+            "Publications",
+            "Public Health",
+            "Public LIbrary",
+            "Public Librarian",
+            "Public Libraries",
+            "Public/Research Library"
+          ]
+        },
+        {
+          "to": "Science academia",
+          "from": [
+            "Science (Chemistry R&D)",
+            "Science - QC lab",
+            "Science/government",
+            "Science academia"
+          ]
+        },
+        {
+          "to": "Hospitality & Events",
+          "from": [
+            "Hospitality & Events",
+            "Hospital"
+          ]
+        },
+        {
+          "to": "Food Industry",
+          "from": [
+            "Food & Nutrition",
+            "Food and Beverage",
+            "Food and Drink",
+            "Food Industry",
+            "Food and Flavor"
+          ]
+        },
+        {
+          "to": "Private Equity",
+          "from": [
+            "Private Sector Emergency Management",
+            "Private Equity",
+            "Private investigator at large firm",
+            "Private company, federal contractor"
+          ]
+        },
+        {
+          "to": "Cannabis",
+          "from": [
+            "Cannabis",
+            "Cannabis compliance"
+          ]
+        },
+        {
+          "to": "Publishing",
+          "from": [
+            "Publishing",
+            "Publishing (academic)",
+            "Publishing, content as a service",
+            "Publishing: Science, Academic, Technical",
+            "Publishing (book)",
+            "Publishibg",
+            "publishing/edtech"
+          ]
+        },
+        {
+          "to": "Government and Public Administration",
+          "from": [
+            "Government contracting",
+            "Government contracting (data analytics and program evaluations)",
+            "Government Contractor (R&D)",
+            "Government Relation",
+            "Government relations",
+            "Government contract",
+            "Government Relations/Lobbying",
+            "\"Government Relations\" (Lobbying)",
+            "Government",
+            "Government Affairs/Lobbying",
+            "government contractor, international development",
+            "Government Contracting R&D",
+            "Government and Public Administration",
+            "Government contractor",
+            "Government- Scientist",
+            "Government Research"
+          ]
+        },
+        {
+          "to": "Early Childhood Education",
+          "from": []
+        },
+        {
+          "to": "Procurement",
+          "from": [
+            "Program management",
+            "Procurement/Sourcing/Operations",
+            "Procurement"
+          ]
+        },
+        {
+          "to": "Biotech Research",
+          "from": [
+            "Pet care industry",
+            "Pet Care",
+            "Biotech / Research",
+            "Pet care/grooming",
+            "Biotech (R&D)",
+            "Pet care industry (dog training/walking)",
+            "Biotech R&D",
+            "Biotech Research"
+          ]
+        },
+        {
+          "to": "Landscape Contracting",
+          "from": [
+            "Landscape Contracting",
+            "Landscaping",
+            "Landscape Architecture",
+            "Landscaping/Tree Work"
+          ]
+        },
+        {
+          "to": "Tabletop Gaming",
+          "from": [
+            "Tabletop Gaming",
+            "Tabletop Games Publishing"
+          ]
+        },
+        {
+          "to": "Food Processing",
+          "from": [
+            "Food processing and packaging",
+            "Food Processing",
+            "Food Production/Processing",
+            "Food production"
+          ]
+        },
+        {
+          "to": "Clinical research",
+          "from": [
+            "Clinical & Translational Reserach",
+            "clinical trials research coordination",
+            "Clinical research and development",
+            "Clinical trials",
+            "Clinical research",
+            "Clinical Research Manager - academic institution"
+          ]
+        },
+        {
+          "to": "Museums",
+          "from": [
+            "Museums & archives",
+            "Museums: Nonprofit",
+            "museums & archives (not sure where this would fall)",
+            "Museums"
+          ]
+        },
+        {
+          "to": "Cleaning",
+          "from": [
+            "Cleaning",
+            "Clean Energy (eg. energy efficiency, renewables, etc.)"
+          ]
+        },
+        {
+          "to": "not-for-profit health research consulting",
+          "from": [
+            "not-for-profit health research consulting",
+            "not-for-profit membership organization"
+          ]
+        },
+        {
+          "to": "Executive Search",
+          "from": [
+            "Executive Search",
+            "Executive Leadership Servis"
+          ]
+        },
+        {
+          "to": "Apparel",
+          "from": [
+            "Apparel",
+            "apparel design/product development",
+            "Apparel manufacture"
+          ]
+        },
+        {
+          "to": "Strategy",
+          "from": [
+            "Strategy",
+            "strategy consulting"
+          ]
+        },
+        {
+          "to": "Politics",
+          "from": [
+            "Political Consulting",
+            "Politics/Campaigns",
+            "Politics",
+            "Politics/Government Relations",
+            "Political Research",
+            "Political Campaigning",
+            "Political Campaigns"
+          ]
+        },
+        {
+          "to": "Finance",
+          "from": []
+        },
+        {
+          "to": null,
+          "from": [
+            null,
+            "Finance"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 17",
+      "groups": [
+        {
+          "to": "Education (Higher Education)",
+          "from": [
+            "Education (Higher Education)",
+            "Online education"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 17",
+      "groups": [
+        {
+          "to": "Biotech/Pharma",
+          "from": [
+            "Pharma/Biotech",
+            "Biotech/Pharma"
+          ]
+        },
+        {
+          "to": "Edtech",
+          "from": [
+            "Edtech",
+            "Ed tech"
+          ]
+        },
+        {
+          "to": "Administration",
+          "from": [
+            "Arts Administration",
+            "Administration"
+          ]
+        },
+        {
+          "to": "Sales operations",
+          "from": [
+            "Patent translation",
+            "Sales operations"
+          ]
+        },
+        {
+          "to": "ESL Teacher",
+          "from": [
+            "ESL Teacher",
+            "Health Research"
+          ]
+        },
+        {
+          "to": "Utilities & Telecommunications",
+          "from": [
+            "Utilities & Telecommunications",
+            "Telecommunications"
+          ]
+        },
+        {
+          "to": "Retail real estate",
+          "from": [
+            "Retail real estate",
+            "Title/Real Estate"
+          ]
+        },
+        {
+          "to": "Museum",
+          "from": [
+            "Museum",
+            "Museums"
+          ]
+        },
+        {
+          "to": "Security",
+          "from": [
+            "IT Security",
+            "Security"
+          ]
+        },
+        {
+          "to": "Oil & Gas",
+          "from": [
+            "Oil & Gas",
+            "Gas & Oil"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 19",
+      "groups": [
+        {
+          "to": "Computing or Tech",
+          "from": [
+            "Computing or Tech",
+            "Career & Technical Training",
+            "Tech",
+            "Paid student intern in Tech",
+            "Technology",
+            "Technical/IT"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 19",
+      "groups": [
+        {
+          "to": "Education (Higher Education)",
+          "from": [
+            "Education (Higher Education)"
+          ]
+        },
+        {
+          "to": null,
+          "from": [
+            null
+          ]
+        },
+        {
+          "to": "Computing or Tech",
+          "from": [
+            "Computing or Tech",
+            "Data Analytics",
+            "Data Breach",
+            "Data Entry",
+            "Database subscription services",
+            "Real World Evidence (data for pharma research)"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 20",
+      "groups": [
+        {
+          "to": "Computing or Tech",
+          "from": [
+            "Computing or Tech",
+            "Fintech",
+            "FinTech/Payment Processing",
+            "Biotechnology",
+            "Lab Science (Biotech)",
+            "Biotech/software",
+            "Bioinformatics"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 21",
+      "groups": [
+        {
+          "to": "Health care",
+          "from": [
+            "Health care",
+            "biological research",
+            "Biologist",
+            "Biology/Research",
+            "Biomedical Research",
+            "Biology",
+            "Biopharma",
+            "Biotech manufacturing",
+            "Biotech pharmaceuticals",
+            "Probiotics",
+            "Biotech/Pharma",
+            "Biotech / life sciences",
+            "Biotech Research",
+            "Biotech/Drug Development",
+            "Biotech"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 22",
+      "groups": [
+        {
+          "to": "Media & Digital",
+          "from": [
+            "Media & Digital",
+            "Entertainment",
+            "Music",
+            "Music Licensing",
+            "music therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 23",
+      "groups": [
+        {
+          "to": "Computing or Tech",
+          "from": [
+            "Computing or Tech",
+            "Govtech Software as a Service",
+            "Payroll Software",
+            "Software",
+            "Saas company/software",
+            "IT MSP",
+            "IT",
+            "Saas"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 24",
+      "groups": [
+        {
+          "to": "Education (Higher Education)",
+          "from": [
+            "Education (Higher Education)",
+            "e-learning",
+            "Learning and Development",
+            "Edtech",
+            "academic research"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 26",
+      "groups": [
+        {
+          "to": "Social Work",
+          "from": [
+            "Social Work",
+            " Buyer",
+            "Accessibility",
+            "Actuarial",
+            "Administration",
+            "Aerospace",
+            "Affordable Housing Real Estate Development (nonprofit)",
+            "Agriculture or Forestry",
+            "Airline",
+            "AmeriCorps",
+            "Analytical Chemistry",
+            "Animal care",
+            "Animation",
+            "Apparel",
+            "Archaeology/Cultural Resource Manager",
+            "Architecture",
+            "Archives",
+            "association management",
+            "Auction House",
+            "Auto Mfg.",
+            "auto repair",
+            "Automotive",
+            "Aviation",
+            "B2B Services",
+            "Background Screening",
+            "Beauty",
+            "Beauty /CPG",
+            "Beauty, Cosmetics, Fragrance",
+            "Beauty/service industry",
+            "Beer sales",
+            "Behavioral Health",
+            "Benefits Administration",
+            "Beverage",
+            "Big Pharma",
+            "Book Publishing",
+            "Brain research",
+            "Brewing",
+            "CALL CENTER",
+            "Cannabis",
+            "Caregiver",
+            "CBD Manufacturing",
+            "Chaplain",
+            "Charity",
+            "Chemicals",
+            "Chemistry",
+            "Child and Yout Care",
+            "Childcare",
+            "Children's Book Wholesale",
+            "Church",
+            "Church ministry",
+            "Cleaning",
+            "Clergy",
+            "Clinical research",
+            "coaching",
+            "Coffee - Importing",
+            "College Athletics",
+            "Commercial Real Estate",
+            "commodities trading",
+            "Communications",
+            "Community Management",
+            "Compliance",
+            "Concrete Construction",
+            "Conservation",
+            "Construction",
+            "Consulting",
+            "Consumer Goods",
+            "Contact Center",
+            "Content Review - Copyright/DMCA",
+            "Contract research organisation",
+            "Corporate sustainability",
+            "Cosmetology",
+            "Costruction admin",
+            "CPG",
+            "Craft Beer Industry",
+            "Cultural Resources Management/Major Univ.",
+            "Customer Service",
+            "Daycare for children under 5 years old",
+            "Defense",
+            "Defense Contracting",
+            "Delivery and installation for commercial machinery",
+            "Diagnostic Medical Devices",
+            "Digital Marketing",
+            "Disability services",
+            "Distribution",
+            "Diversity, Equity & Inclusion",
+            "DoD Contracting",
+            "Drug development",
+            "e-comm",
+            "e-commerce",
+            "Eap",
+            "Earth sciences",
+            "Ecology",
+            "economics",
+            "Educ tech",
+            "Emergency Management",
+            "Energy",
+            "Env. Consulting",
+            "Environmental",
+            "ESL Teacher",
+            "Executive Search",
+            "facilities",
+            "Faith/spirituality",
+            "Family office",
+            "Fashion",
+            "Fashion/e-commerce",
+            "Fast casual restaurant",
+            "Fast Food",
+            "Federal Government Contracting",
+            "Film Post-Production",
+            "Finance/Investment Management but in legal/compliance, so back-office",
+            "Fire protection",
+            "Fitness",
+            "FMCG",
+            "FMCG development",
+            "Food",
+            "Food & Beverage",
+            "Food demos",
+            "Food distribution",
+            "Food Industry",
+            "Food manufacturing",
+            "Food Processing",
+            "Food service",
+            "Food/Quick Service Restaurant (QSR)",
+            "Forensics",
+            "Forklift operator warehouse",
+            "Freelance Journalism",
+            "Funding Intermediary",
+            "Fundraising",
+            "Funeral services",
+            "Game Development",
+            "Geologist",
+            "Geospatial",
+            "Global Mobility",
+            "Graduate assistant and also events",
+            "Grantwriting Consultants",
+            "Grocery Distribution",
+            "Gyms",
+            "Hardware Manufacturing",
+            "Haz/Ind/Rad Waste Management",
+            "Health and Safety",
+            "Heritage",
+            "High end outdoor furniture manufacturer",
+            "Historic Preservation",
+            "Homemaker",
+            "Horticulture",
+            "Hospitality & Events",
+            "Household Services",
+            "Housekeeper/cook",
+            "HRO",
+            "Human Capital Management",
+            "Human Resources",
+            "Human services",
+            "I have two jobs. Marketing / Business",
+            "Immigration",
+            "In-House Marketing",
+            "individual & family services",
+            "Industrial Cleaning & Non Hazardous Transport",
+            "Instructional Design and Training",
+            "Intelligence",
+            "Investing",
+            "Ipr",
+            "Janitorial",
+            "Journalism",
+            "Labor",
+            "Labor Union",
+            "Laboratory research",
+            "labour/professional organization",
+            "Landed Estate",
+            "Landscape Contracting",
+            "Language Services company, unsure the broad category to use. Our clients are branding agencies, and their clients are frequently (but not always) pharmaceutical companies.",
+            "Large University Administration",
+            "Laundry and Rental",
+            "Law Enforcement & Security",
+            "Law Library",
+            "Legal Services",
+            "Leisure, Sport & Tourism",
+            "Library",
+            "Life Sciences",
+            "Literature",
+            "Lobbying and consulting",
+            "Logistics",
+            "Low-Voltage Equipment",
+            "Luxury Fashion",
+            "Maintenance",
+            "Management Consulting",
+            "manufacturing",
+            "Maritime",
+            "MedComms",
+            "medical research",
+            "Mental Health",
+            "Military",
+            "Mining",
+            "Ministry",
+            "mortgage",
+            "Multilateral Organisation",
+            "municipal (public) libraries",
+            "Museum",
+            "Museum - Nonprofit",
+            "Museum (<20 employees)",
+            "Museum Library",
+            "My company sells & services various types of printers, mostly Kyocera.",
+            "National laboratory",
+            "Natural Resources",
+            "not-for-profit health research consulting",
+            "Nuclear research",
+            "Obligatory Military service",
+            "oceanography research",
+            "Office Admin",
+            "Oil",
+            "Oil & Gas",
+            "Oil and Gas",
+            "Oilfield adjacent",
+            "Operations",
+            "Organized Labor",
+            "Outdoor industry/repair and maintenance",
+            "Outsourced Customer Service/Tech Support Call Centre",
+            "parking",
+            "Parks and recreation, land management but with customer service included",
+            "Payment Processing",
+            "Pension Benefit Administration",
+            "Per Sitter",
+            "Pest Control",
+            "Petroleum",
+            "Pharma",
+            "pharma / medical device design and manufacturing",
+            "Pharma R&D",
+            "Pharmaceuticals",
+            "Pharmacuticals",
+            "Philanthropy",
+            "Physical sciences",
+            "Plumbing",
+            "Policy research",
+            "Politics",
+            "Preclinical Research",
+            "Printing",
+            "Private Equity",
+            "Procurement",
+            "Product Management",
+            "Professional Services",
+            "project management",
+            "Psychologist",
+            "Public LIbrary",
+            "Publishing",
+            "Purchasing",
+            "Quality Assurance",
+            "R&D",
+            "R&D in Manufacturing",
+            "Real Estate",
+            "Regulatory Affairs- nutraceuticals",
+            "Religion",
+            "Religious (church)",
+            "Renewable Energy",
+            "Repair facility for heavy duty trucks",
+            "Research",
+            "Restaurant",
+            "Retired",
+            "Rideshare",
+            "Rural electrification",
+            "Sailing Instructor",
+            "Science",
+            "Science (Laboratory)",
+            "Science academia",
+            "Science and reasearch",
+            "Science publishing",
+            "Science research",
+            "Scientific Research",
+            "Security",
+            "Service and repair",
+            "Shared office space",
+            "Sign Language Interpreter, Community",
+            "Skilled trade",
+            "Small business/service company",
+            "Social networks",
+            "Social science",
+            "Soft Drinks Manufacturing",
+            "Soldier",
+            "Sourcing & Procurement",
+            "Space",
+            "Specialist clothing",
+            "Sports",
+            "Staffing agency",
+            "State DOT",
+            "State-level public transportation agency",
+            "Stay-at-home parent",
+            "STEM medical research",
+            "STEM Research",
+            "Storage Facility",
+            "Strategy",
+            "student",
+            "Subsidized Seniors Housing",
+            "Summer camp",
+            "Supply chain",
+            "Survey methodology",
+            "Survey Research/Public Policy Research",
+            "Surveying",
+            "Synthetic Chemical Manufacturing",
+            "Tabletop Gaming",
+            "Tailoring Service",
+            "Textbook Copyeditor",
+            "Theatre",
+            "Think tank",
+            "Third sector/non profit - medical membership in UK",
+            "TIC (Testing, Inspection & Certification)",
+            "Tourism",
+            "Toxicology",
+            "Trade Association",
+            "Training",
+            "Travel",
+            "Union/political organizing",
+            "Unions",
+            "Unknown",
+            "Urban Planning",
+            "User Experience Design",
+            "UX Research",
+            "Veterinary",
+            "Video Games",
+            "Virtual Assisting",
+            "Warehouse",
+            "Waste and recycling",
+            "Waste Management",
+            "Wealth advisor Research",
+            "Wherever I'm assigned via the union",
+            "wholesale distribution",
+            "Wine",
+            "Wine & Spirits",
+            "Wine Importing/Distribution",
+            "Wine Wholesale",
+            "Winery regulatory compliance",
+            "Work-Study",
+            "Writing and journalism",
+            "Zoo",
+            "Zoos and Aquariums"
+          ]
+        },
+        {
+          "to": "Computing or Tech",
+          "from": [
+            "Computing or Tech"
+          ]
+        },
+        {
+          "to": "Education (Higher Education)",
+          "from": [
+            "Education (Higher Education)"
+          ]
+        },
+        {
+          "to": "Nonprofits",
+          "from": [
+            "Nonprofits"
+          ]
+        },
+        {
+          "to": "Health care",
+          "from": [
+            "Health care"
+          ]
+        },
+        {
+          "to": "Government and Public Administration",
+          "from": [
+            "Government and Public Administration"
+          ]
+        },
+        {
+          "to": "Accounting, Banking & Finance",
+          "from": [
+            "Accounting, Banking & Finance"
+          ]
+        },
+        {
+          "to": "Engineering or Manufacturing",
+          "from": [
+            "Engineering or Manufacturing"
+          ]
+        },
+        {
+          "to": "Marketing, Advertising & PR",
+          "from": [
+            "Marketing, Advertising & PR"
+          ]
+        },
+        {
+          "to": "Law",
+          "from": [
+            "Law"
+          ]
+        },
+        {
+          "to": "Media & Digital",
+          "from": [
+            "Media & Digital"
+          ]
+        },
+        {
+          "to": "Business or Consulting",
+          "from": [
+            "Business or Consulting"
+          ]
+        },
+        {
+          "to": "Insurance",
+          "from": [
+            "Insurance"
+          ]
+        },
+        {
+          "to": "Retail",
+          "from": [
+            "Retail"
+          ]
+        },
+        {
+          "to": "Retail mid level management",
+          "from": [
+            "Retail mid level management"
+          ]
+        },
+        {
+          "to": "Retail call center",
+          "from": [
+            "Retail call center"
+          ]
+        },
+        {
+          "to": "CPG / Retail",
+          "from": [
+            "CPG / Retail"
+          ]
+        },
+        {
+          "to": "Retail real estate",
+          "from": [
+            "Retail real estate"
+          ]
+        },
+        {
+          "to": "Retail pharmacy",
+          "from": [
+            "Retail pharmacy"
+          ]
+        },
+        {
+          "to": "Recruitment or HR",
+          "from": [
+            "Recruitment or HR"
+          ]
+        },
+        {
+          "to": "Property or Construction",
+          "from": [
+            "Property or Construction"
+          ]
+        },
+        {
+          "to": "Utilities & Telecommunications",
+          "from": [
+            "Utilities & Telecommunications"
+          ]
+        },
+        {
+          "to": "Art & Design",
+          "from": [
+            "Art & Design"
+          ]
+        },
+        {
+          "to": "Performing Arts",
+          "from": [
+            "Performing Arts"
+          ]
+        },
+        {
+          "to": "art appraisal",
+          "from": [
+            "art appraisal"
+          ]
+        },
+        {
+          "to": "Transport or Logistics",
+          "from": [
+            "Transport or Logistics"
+          ]
+        },
+        {
+          "to": "Sales",
+          "from": [
+            "Sales"
+          ]
+        },
+        {
+          "to": "Sales operations",
+          "from": [
+            "Sales operations"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 25",
+      "groups": [
+        {
+          "to": "Others",
+          "from": [
+            "Others",
+            "Social Work",
+            " Buyer",
+            "Zoos and Aquariums",
+            "Zoo",
+            "Accessibility",
+            "Accounting, Banking & Finance",
+            "Actuarial",
+            "Affordable Housing Real Estate Development (nonprofit)"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 27",
+      "groups": [
+        {
+          "to": "Art & Design",
+          "from": [
+            "Art & Design",
+            "art appraisal",
+            "Performing Arts"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 28",
+      "groups": [
+        {
+          "to": "Sales",
+          "from": [
+            "Sales",
+            "Sales operations"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 29",
+      "groups": [
+        {
+          "to": "Retail",
+          "from": [
+            "Retail",
+            "CPG / Retail",
+            "Retail call center",
+            "Retail pharmacy",
+            "Retail mid level management",
+            "Retail real estate"
+          ]
+        }
+      ]
+    }
+  ],
+  "US_STATES": [
+    {
+      "step": "Clean 30",
+      "groups": [
+        {
+          "to": "Utah, Vermont",
+          "from": [
+            "Utah, Vermont",
+            "Iowa, Utah, Vermont"
+          ]
+        },
+        {
+          "to": "Oregon",
+          "from": [
+            "Arkansas, Idaho, Kansas, Louisiana, Michigan, Mississippi, Nevada, New York, South Carolina, Tennessee, Washington",
+            "Arkansas",
+            "Arkansas, Iowa, Massachusetts, Ohio, Wyoming",
+            "Oregon, Washington",
+            "Oregon",
+            "Arkansas, Illinois"
+          ]
+        },
+        {
+          "to": "North Carolina",
+          "from": [
+            "North Carolina",
+            "North Carolina, Utah"
+          ]
+        },
+        {
+          "to": "District of Columbia",
+          "from": [
+            "District of Columbia, Virginia",
+            "District of Columbia, Maryland, Pennsylvania, Virginia",
+            "District of Columbia, Maryland",
+            "District of Columbia, Maryland, Virginia",
+            "District of Columbia",
+            "District of Columbia, Washington"
+          ]
+        },
+        {
+          "to": "Montana",
+          "from": [
+            "Montana",
+            "Montana, Wyoming"
+          ]
+        },
+        {
+          "to": "Indiana",
+          "from": [
+            "Indiana",
+            "Indiana, Massachusetts",
+            "Indiana, Ohio"
+          ]
+        },
+        {
+          "to": "Kansas",
+          "from": [
+            "Kansas, Missouri",
+            "Kansas"
+          ]
+        },
+        {
+          "to": "California",
+          "from": [
+            "California, Montana",
+            "California",
+            "California, Maryland",
+            "California, New York",
+            "California, Colorado",
+            "California, District of Columbia, Illinois, Iowa, Maryland, Minnesota",
+            "California, Pennsylvania",
+            "California, Illinois, Massachusetts, North Carolina, South Carolina, Virginia",
+            "California, Oklahoma",
+            "California, Oregon",
+            "California, New Jersey",
+            "California, Texas"
+          ]
+        },
+        {
+          "to": "Florida",
+          "from": [
+            "Florida",
+            "Florida, New Hampshire, Wisconsin",
+            "Florida, Georgia, South Carolina"
+          ]
+        },
+        {
+          "to": "Alabama",
+          "from": [
+            "Alabama, Oregon",
+            "Alabama, California",
+            "Alabama, Alaska, Arizona",
+            "Alabama, Montana",
+            "Alabama, District of Columbia",
+            "Alabama, Minnesota, Nevada",
+            "Alabama",
+            "Alabama, South Carolina",
+            "Alabama, Kansas"
+          ]
+        },
+        {
+          "to": "New Jersey",
+          "from": [
+            "New Jersey, Virginia",
+            "New Jersey, New York",
+            "New Jersey, Pennsylvania",
+            "New Jersey"
+          ]
+        },
+        {
+          "to": "Michigan",
+          "from": [
+            "Michigan, Texas, Washington",
+            "Michigan",
+            "Michigan, South Carolina"
+          ]
+        },
+        {
+          "to": "Pennsylvania",
+          "from": [
+            "Pennsylvania, Rhode Island",
+            "Pennsylvania"
+          ]
+        },
+        {
+          "to": "Mississippi",
+          "from": [
+            "Mississippi",
+            "Mississippi, Missouri"
+          ]
+        },
+        {
+          "to": "Massachusetts",
+          "from": [
+            "Massachusetts, Vermont",
+            "Massachusetts",
+            "Massachusetts, Oregon",
+            "Massachusetts, Rhode Island",
+            "Massachusetts, New Hampshire",
+            "Massachusetts, Pennsylvania"
+          ]
+        },
+        {
+          "to": "Texas",
+          "from": [
+            "Texas, Virginia",
+            "Texas"
+          ]
+        },
+        {
+          "to": "Colorado",
+          "from": [
+            "Colorado, Illinois",
+            "Colorado, Nevada",
+            "Colorado",
+            "Colorado, Massachusetts"
+          ]
+        },
+        {
+          "to": "Connecticut",
+          "from": [
+            "Kentucky, Ohio",
+            "Kentucky",
+            "Connecticut"
+          ]
+        },
+        {
+          "to": "Alaska",
+          "from": [
+            "Alaska, Maryland",
+            "Alaska, Idaho, Oregon, Utah, Washington",
+            "Alaska"
+          ]
+        },
+        {
+          "to": "Georgia, Massachusetts",
+          "from": [
+            "Georgia, Massachusetts",
+            "Georgia, Minnesota"
+          ]
+        },
+        {
+          "to": "Maryland",
+          "from": [
+            "Maryland",
+            "Maryland, New York",
+            "Maryland, Virginia"
+          ]
+        },
+        {
+          "to": "Arizona",
+          "from": [
+            "Arizona",
+            "Arizona, Washington",
+            "Arizona, Utah",
+            "Arizona, California",
+            "Arizona, Hawaii, Illinois, Michigan, Utah, Wyoming",
+            "Arizona, New York",
+            "Arizona, California, Nevada, Texas"
+          ]
+        },
+        {
+          "to": "Illinois",
+          "from": [
+            "Illinois",
+            "Illinois, Kentucky",
+            "Illinois, North Carolina",
+            "Illinois, Wisconsin"
+          ]
+        },
+        {
+          "to": "Ohio",
+          "from": [
+            "Ohio",
+            "Ohio, Wyoming",
+            "Ohio, Washington"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 31",
+      "groups": [
+        {
+          "to": "New York",
+          "from": [
+            "New York",
+            "New York, Oregon, Vermont",
+            "New York, Texas",
+            "New York, Virginia",
+            "Georgia, New York"
+          ]
+        },
+        {
+          "to": "Columbia",
+          "from": [
+            "Columbia",
+            "District of Columbia"
+          ]
+        },
+        {
+          "to": "Georgia",
+          "from": [
+            "Georgia",
+            "Georgia, Massachusetts"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "Clean 32",
+      "groups": [
+        {
+          "to": "Georgia",
+          "from": [
+            "Georgia",
+            "Georgia, Tennessee",
+            "Georgia, Washington"
+          ]
+        },
+        {
+          "to": "Utah",
+          "from": [
+            "Utah",
+            "Utah, Vermont"
+          ]
+        },
+        {
+          "to": "Wisconsin",
+          "from": [
+            "Wisconsin",
+            "Utah, Wisconsin"
+          ]
+        },
+        {
+          "to": "Pennsylvania",
+          "from": [
+            "Pennsylvania",
+            "Delaware, Pennsylvania"
+          ]
+        },
+        {
+          "to": "Washington",
+          "from": [
+            "Washington",
+            "Louisiana, Washington"
+          ]
+        },
+        {
+          "to": "Oregon",
+          "from": [
+            "Oregon",
+            "Nevada, Oregon"
+          ]
+        },
+        {
+          "to": "South Dakota",
+          "from": [
+            "South Dakota",
+            "Columbia"
+          ]
+        },
+        {
+          "to": null,
+          "from": [
+            null,
+            "Unknown"
+          ]
+        },
+        {
+          "to": "Lowa",
+          "from": [
+            "Lowa",
+            "Iowa, Nebraska"
+          ]
+        },
+        {
+          "to": "Massachusetts",
+          "from": [
+            "Massachusetts",
+            "Massachusetts, New Hampshire, North Carolina",
+            "Maine, Massachusetts, New Hampshire, North Carolina"
+          ]
+        }
+      ]
+    }
+  ]
+}
