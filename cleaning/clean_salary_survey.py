@@ -27,7 +27,7 @@ from pathlib import Path
 import pandas as pd
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-RAW_PATH = REPO_ROOT / "Raw dataset.xlsx"
+RAW_PATH = REPO_ROOT / "data" / "raw_salary_survey_2021.xlsx"
 SHEET_NAME = "Form Responses 1"
 INDUSTRY_RULES_PATH = Path(__file__).resolve().parent / "industry_mapping.json"
 OUTPUT_CSV = REPO_ROOT / "data" / "salary_survey_usa_clean.csv"
