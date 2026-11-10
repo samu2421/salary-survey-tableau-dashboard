@@ -76,6 +76,9 @@ OUTPUT_COLUMNS = [
 MULTIPLE_STATES = "Multiple states"
 UNKNOWN = "Unknown"
 
+# GENDER answers merged into an existing survey option.
+GENDER_MERGE = {"Prefer not to answer": "Other or prefer not to answer"}
+
 # --- Country normalisation -------------------------------------------------
 # Values are compared after lower-casing and removing everything except
 # letters a-z, so "U.S.", "u. s", "United  States " collapse to one key.
@@ -189,6 +192,15 @@ def map_us_states(series: pd.Series) -> pd.Series:
     return series.map(one)
 
 
+# --- Gender ----------------------------------------------------------------
+def merge_gender(series: pd.Series) -> pd.Series:
+    """Merge GENDER answers listed in GENDER_MERGE (exact match).
+
+    All other values, including missing, are left unchanged.
+    """
+    return series.replace(GENDER_MERGE)
+
+
 # --- Generic steps ---------------------------------------------------------
 def rename_columns(df: pd.DataFrame) -> pd.DataFrame:
     missing = [c for c in RENAME_MAP if c not in df.columns]
@@ -276,6 +288,13 @@ def prepare_usa_rows(
     df["INDUSTRY"] = map_industry(df["INDUSTRY"], industry_rules)
     df["US_STATES"] = map_us_states(df["US_STATES"])
     df["RACE"] = df["RACE"].fillna(UNKNOWN)
+
+    merged = df["GENDER"].isin(GENDER_MERGE.keys())
+    df["GENDER"] = merge_gender(df["GENDER"])
+    report["gender_rule"] = {
+        "merged": GENDER_MERGE,
+        "rows_changed": int(merged.sum()),
+    }
 
     # Prep flow: exclude missing EDUCATION, GENDER and CITY.
     before = len(df)

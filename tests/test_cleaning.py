@@ -12,6 +12,7 @@ from cleaning.clean_salary_survey import (
     load_industry_rules,
     map_industry,
     map_us_states,
+    merge_gender,
     normalise_country,
     prepare_usa_rows,
     remove_duplicate_responses,
@@ -180,6 +181,23 @@ def test_map_us_states(value, expected):
     assert map_us_states(series).iloc[0] == expected
 
 
+# ---------------------------------------------------------------- gender
+
+
+def test_merge_gender_prefer_not_to_answer():
+    series = pd.Series(
+        ["Prefer not to answer", "Other or prefer not to answer", "Woman",
+         "Man", "Non-binary", None],
+        dtype=object,
+    )
+    out = merge_gender(series)
+    assert out.iloc[:5].tolist() == [
+        "Other or prefer not to answer", "Other or prefer not to answer",
+        "Woman", "Man", "Non-binary",
+    ]
+    assert pd.isna(out.iloc[5])
+
+
 # ------------------------------------------------------------- salary bounds
 
 
@@ -253,7 +271,7 @@ def test_prepare_usa_rows_end_to_end():
             ),
             _raw_row(
                 INDUSTRY="Zoo", US_STATES="Maryland, Virginia",
-                JOB_TITLE="Keeper",
+                JOB_TITLE="Keeper", GENDER="Prefer not to answer",
             ),
         ]
     )
@@ -276,3 +294,7 @@ def test_prepare_usa_rows_end_to_end():
     assert by_title.loc["Other", "RACE"] == UNKNOWN
     assert by_title.loc["Keeper", "INDUSTRY"] == "Others"
     assert by_title.loc["Keeper", "US_STATES"] == MULTIPLE_STATES
+    assert (
+        by_title.loc["Keeper", "GENDER"] == "Other or prefer not to answer"
+    )
+    assert report["gender_rule"]["rows_changed"] == 1

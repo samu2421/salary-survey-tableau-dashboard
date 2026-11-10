@@ -9,6 +9,12 @@
   "duplicates_removed": 152,
   "duplicates_rule": "identical in all original columns except Timestamp; first kept",
   "usd_rows_excluded_non_usa_or_ambiguous_country": 235,
+  "gender_rule": {
+    "merged": {
+      "Prefer not to answer": "Other or prefer not to answer"
+    },
+    "rows_changed": 1
+  },
   "missing_value_rows_removed": 320,
   "missing_value_rule": "rows with missing EDUCATION, GENDER or CITY excluded",
   "salary_bounds": {
